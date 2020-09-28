@@ -39,7 +39,7 @@ Private Sub StartBlinking()
     Application.OnTime NextBlink, "StartBlinking", , True
 End Sub
 
-'Stop blkinking
+'Stop blinking
 Private Sub StopBlinking()
     'Set color to white
     Range(BlinkCell).Interior.ColorIndex = 0
